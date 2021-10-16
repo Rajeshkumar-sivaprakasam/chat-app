@@ -3,7 +3,7 @@ import MyMessage from "./MyMessage";
 import TheirMessage from "./TheirMessage";
 
 const ChatFeed = (props) =>{
-    { chats, activeChat, userName, messages } = props;
+const { chats, activeChat, userName, messages} = props;
     return(
         <div>
             Chat Feed!
